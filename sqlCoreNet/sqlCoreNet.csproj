@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Collections\proceTuple.cs" />
     <Compile Include="Data\mssql\mssqlDriver.cs" />
+    <Compile Include="Data\oledb\oledbDriver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -9,15 +9,9 @@ namespace sqlCoreNet.Data.mssql
     [Serializable]
     public class mssqlDriver
     {
-        public mssqlDriver() { }
         public mssqlDriver(string strConnection)
         {
             this.strConnection = strConnection;
-            conn = new SqlConnection(strConnection);
-        }
-
-        public void Open()
-        {
             conn = new SqlConnection(strConnection);
         }
 
